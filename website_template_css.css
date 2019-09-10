@@ -1,0 +1,29 @@
+ .grid-container {
+        grid-template-areas:'header header header'
+                            'mainbar mainbar mainbar'
+                            'menu maincontent maincontent'
+                            'menu maincontent maincontent'
+                            'footer footer footer';
+        display:grid;
+    }
+    
+    .item-header {
+        background-color:red;
+        grid-area: header;
+    }
+    .item-mainbar {
+        background-color:blue;
+        grid-area: mainbar;
+    }
+    .item-menu {
+        background-color:green;
+        grid-area: menu;
+    }
+    .item-maincontent {
+        background-color:pink;
+        grid-area: maincontent;
+    }
+    .item-footer {
+        background-color:violet;
+        grid-area: footer;
+    }
