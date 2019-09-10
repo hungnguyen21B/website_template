@@ -1,29 +1,29 @@
- .grid-container {
+.grid-container {
         grid-template-areas:'header header header'
-                            'mainbar mainbar mainbar'
-                            'menu maincontent maincontent'
-                            'menu maincontent maincontent'
+                            'main-bar main-bar main-bar'
+                            'menu content content'
+                            'menu content content'
                             'footer footer footer';
         display:grid;
     }
     
-    .item-header {
+.header {
         background-color:red;
         grid-area: header;
     }
-    .item-mainbar {
+.main-bar {
         background-color:blue;
-        grid-area: mainbar;
+        grid-area: main-bar;
     }
-    .item-menu {
+.menu {
         background-color:green;
         grid-area: menu;
     }
-    .item-maincontent {
+.content {
         background-color:pink;
-        grid-area: maincontent;
+        grid-area: content;
     }
-    .item-footer {
+.footer {
         background-color:violet;
         grid-area: footer;
     }
